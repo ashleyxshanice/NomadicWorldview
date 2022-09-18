@@ -1,0 +1,145 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background-color: #fbf8f1;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+}
+
+.starter {
+  /* margin: 50px;
+    padding-right: 59%;
+    text-align: center; */
+
+  margin-left: -13px;
+  margin-top: 32px;
+  padding-right: 58%;
+  text-align: center;
+}
+
+.intro-title {
+  padding: 1rem;
+  color: #9ed2c6;
+  font-family: "Qwitcher Grypen";
+  font-weight: 700;
+  font-size: 75px;
+  letter-spacing: 3px;
+}
+
+.intro-content {
+  padding: 1rem;
+}
+
+.intro-img {
+  /* margin: 50px; 
+    padding-left: 32%;
+    align-items: center;
+    position: absolute; */
+
+  /* margin: auto;  */
+  margin-left: 30%;
+  padding-left: 8%;
+  padding-top: 0%;
+  /* align-items: center; */
+  top: 150px;
+  position: absolute;
+  float: right;
+  /* display: block; */
+  /* transform: scale(1.1, 1.1); */
+  width: 50%;
+  height: auto;
+}
+
+.page-break {
+  margin: 1%;
+  text-align: center;
+}
+
+.break-title {
+  color: #9ed2c6;
+  /* color: black; */
+  font-family: "Qwitcher Grypen";
+  font-weight: 700;
+  font-size: 75px;
+  letter-spacing: 3px;
+  /* background-color: #9ed2c6; */
+  /* background-image: url("https://i.pinimg.com/736x/c2/51/9e/c2519e686ebb2192422ee0b86716a065.jpg"); */
+  /* background-image: url("https://media.istockphoto.com/vectors/modern-simple-geometric-vector-seamless-pattern-with-gold-flowers-vector-id1150985376?k=20&m=1150985376&s=612x612&w=0&h=NHZjAbz3n31tdLe788E-F4ulw7bc6LtgxCtiWVDhDQg="); */
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  /* padding: 5px; */
+  /* width: 100%; */
+  /* display: block; */
+  /* width: 100%;
+    height: auto; */
+
+  /* border: 1px solid;
+    width: 20vh;
+    height: 20vh; */
+  overflow: hidden;
+  display: flex;
+  padding: 0px;
+}
+
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+footer {
+  /* this was static before */
+  position: absolute; 
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f7ecde;
+}
+
+.footer-container {
+  position: relative;
+  min-height: 80px;
+}
+
+/* .footer-wrap {
+    padding-bottom: 2.5rem;   
+} */
+
+/* #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height 
+  } */
+
+/* .socials {
+    padding: 1rem;
+} */
+
+.fa-brands {
+  padding: 10px;
+}
+
+.footer p {
+  margin-top: 25px;
+
+  font-size: 12px;
+  color: black;
+}

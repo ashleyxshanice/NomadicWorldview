@@ -9,7 +9,7 @@ function Socials() {
 
     return (
         <div class="socials">
-            <FontAwesomeIcon icon={brands('twitter')} />            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-youtube"></i>

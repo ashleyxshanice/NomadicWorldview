@@ -5,10 +5,12 @@ import Footer from "./Footer";
 
 
 
-function App(){
+function App() {
     return (
-        <Header/>
-        /* <Footer/> */
+        <div>
+            <Header />
+            <Footer />
+        </div>
     );
 
 }

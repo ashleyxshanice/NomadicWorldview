@@ -5,10 +5,10 @@ function Footer() {
     const year = new Date().getFullYear();
     return (
         <footer>
-            <div class="footer-wrap">
+            <div className="footer-wrap">
                 <Socials/>
+                <p>Copyright © {year}</p>
             </div>
-            <p>Copyright © {year}</p>
         </footer>
     )
 

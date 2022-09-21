@@ -10,7 +10,7 @@ function NavigationBar() {
   return (
     <Navbar  expand="lg" className="navbar">
       <Container fluid>
-        <Navbar.Brand href="/" className="navbar-brand">Nomaic Worldview</Navbar.Brand>
+        <Navbar.Brand href="/" className="navbar-brand">Nomadic Worldview</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-links navbar-nav">

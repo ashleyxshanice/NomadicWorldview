@@ -8,7 +8,7 @@ function Socials() {
 
     return (
         <div className="socials">
-            <i className="fa-brands fa-instagram" id="instagram" onClick={handleClick}></i>
+            <i className="fa-brands fa-instagram" onClick={handleClick}></i>
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-twitter"></i>
             <i className="fa-brands fa-youtube"></i>

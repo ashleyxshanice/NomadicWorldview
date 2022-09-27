@@ -3,13 +3,13 @@ import React from "react";
 
 function Intro() {
     return (
-        <section class="intro">
-            <div class="container">
-                <div class="row">
-                    <div class="intro">
-                        <div class="starter col-lg-auto">
-                            <h1 class="intro-title">Welcome!</h1>
-                            <p class="intro-content">
+        <section className="intro">
+            <div className="container">
+                <div className="row">
+                    <div className="intro">
+                        <div className="starter col-lg-auto">
+                            <h1 className="intro-title">Welcome!</h1>
+                            <p className="intro-content">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Viverra aliquet eget sit amet tellus cras adipiscing enim eu.
                                 Amet dictum sit amet justo donec enim diam vulputate ut. Et netus et malesuada fames ac
@@ -24,8 +24,8 @@ function Intro() {
                             </p>
                         </div>
 
-                        <div class="col-lg-auto">
-                            <img class="intro-img"
+                        <div className="col-lg-auto">
+                            <img className="intro-img"
                                 src="https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-3155666.jpg&fm=jpg"
                                 alt=""/>
                         </div>

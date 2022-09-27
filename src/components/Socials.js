@@ -1,19 +1,18 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
-
-
-
 
 function Socials() {
 
+    function handleClick() {
+        console.log("I have clicked");
+    }
+
     return (
-        <div class="socials">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-pinterest"></i>
+        <div className="socials">
+            <i className="fa-brands fa-instagram" id="instagram" onClick={handleClick}></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-youtube"></i>
+            <i className="fa-brands fa-pinterest"></i>
         </div>  
     );
 }

@@ -14,7 +14,7 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-links navbar-nav">
-            <Nav.Link className="nav-item" href="/">Home</Nav.Link>
+            <Nav.Link className="nav-item links" href="/">Home</Nav.Link>
 
             <NavDropdown className="nav-item" title="About" id="basic-nav-dropdown">
               <NavDropdown.Item href="/aboutme">About Me</NavDropdown.Item>
@@ -45,14 +45,14 @@ function NavigationBar() {
               <NavDropdown.Item href="/resources/travel">Travel Resources</NavDropdown.Item>
               <NavDropdown.Item href="/resources/gear">Travel Gear</NavDropdown.Item>
             </NavDropdown>
-            <div id="cover">
+            <div id="cover" className="container-fluid">
               <Form className="d-flex">
                 <div className="tb">
                   <div className="td">
-                    <input type="text" placeholder="Search" required />
+                    <input type="text" className="searchText" placeholder="Search" required />
                   </div>
                   <div className="td" id="s-cover">
-                    <button type="submit">
+                    <button type="submit" className="submitButton">
                       <div id="s-circle"></div>
                       <span></span>
                     </button>
